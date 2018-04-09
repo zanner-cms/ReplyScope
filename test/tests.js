@@ -17,16 +17,7 @@ const util = require('util');
 const Reply = require('zanner-cms-reply').Reply;
 
 const ReplyScope = require('../ReplyScope').ReplyScope;
-const AsyncFunction = require('../AsyncFunction').AsyncFunction;
 
-
-describe('AsyncFunction', () => {
-
-	it('is async function class', () => {
-		expect(async function () {}).to.be.instanceof(AsyncFunction);
-	});
-
-});
 
 describe('ReplyScope', () => {
 

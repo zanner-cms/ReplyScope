@@ -6,8 +6,6 @@
 const Reply = require('zanner-cms-reply').Reply;
 const Scope = require('zanner-cms-scope').Scope;
 
-const AsyncFunction = require('./AsyncFunction').AsyncFunction;
-
 
 class ReplyScope extends Scope {
 
