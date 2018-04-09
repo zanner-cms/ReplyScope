@@ -42,7 +42,7 @@ describe('ReplyScope', () => {
 			done();
 		});
 
-		it('ReplyScope.init creates instanceof Reply', (done) => {
+		it('ReplyScope.init creates instanceof ReplyScope', (done) => {
 			expect(ReplyScope.init()).to.be.an.instanceof(ReplyScope);
 			done();
 		});
